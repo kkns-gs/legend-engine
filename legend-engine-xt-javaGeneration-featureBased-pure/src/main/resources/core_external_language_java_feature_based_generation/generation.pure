@@ -19,11 +19,6 @@ import meta::external::language::java::transform::*;
 import meta::external::language::java::serialization::*;
 import meta::external::shared::format::utils::*;
 
-Profile meta::external::language::java::generation::featureBased::BuilderSupport
-{
-    stereotypes: [builder];
-}
-
 Profile meta::external::language::java::generation::featureBased:EnumLabel
 {
     stereotypes: [hasLabel];
